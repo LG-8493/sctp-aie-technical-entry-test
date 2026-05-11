@@ -33,3 +33,14 @@ def formatInitials(firstName, lastName):
 #   formatInitials("bob","lim")   → Expected: "B.L."
 
 # Add your code here
+def formatName(firstName, lastName):
+    return f"{lastName.capitalize()}, {firstName.capitalize()}"
+
+def formatInitials(firstName, lastName):
+    return f"{firstName.strip()[0].upper()}.{lastName.strip()[0].upper()}."
+
+# Task 3: Call functions and print results
+print(formatName("Alice", "Tan"))     # Expected: Tan, Alice
+print(formatName("bob", "lim"))       # Expected: Lim, Bob
+print(formatInitials("Alice","Tan"))  # Expected: A.T.
+print(formatInitials("bob","lim"))    # Expected: B.L.
