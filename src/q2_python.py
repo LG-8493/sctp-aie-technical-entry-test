@@ -46,3 +46,9 @@ listInventory()
 # Expected output:
 # Mouse is already in inventory.
 # Inventory: ['Laptop', 'Mouse', 'Keyboard']
+
+addItem("Laptop")
+addItem("Mouse")
+addItem("Keyboard")
+addItem("Mouse")   # Should trigger duplicate warning
+listInventory()
