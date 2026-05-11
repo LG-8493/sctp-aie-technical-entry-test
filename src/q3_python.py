@@ -20,7 +20,9 @@ def formatName(firstName, lastName):
 
 def formatInitials(firstName, lastName):
     # Add your code here
-    pass
+# Strip spaces (just in case), take the first character of each,
+    # convert to uppercase, and format as "F.L."
+    return f"{firstName.strip()[0].upper()}.{lastName.strip()[0].upper()}."
 
 
 # Task 3:
