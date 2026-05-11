@@ -5,7 +5,8 @@
 # Declare an empty list called inventory to store item names as strings.
 
 # Add your code here
-
+# Declare an empty inventory list
+inventory = []
 
 # Task 2:
 # Write a function called addItem(itemName) that adds the given item to the
