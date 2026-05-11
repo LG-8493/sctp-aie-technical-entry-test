@@ -14,7 +14,14 @@
 
 def convertTemp(value, unit):
     # Add your code here
-    pass
+    
+    if unit == "C":
+        return round((value * 9 / 5) + 32, 2)
+    elif unit == "F":
+        return round((value - 32) * 5 / 9, 2)
+    else:
+        return -1
+
 
 
 # Task 2:
