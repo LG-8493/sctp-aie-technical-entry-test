@@ -8,7 +8,7 @@
 
 def formatName(firstName, lastName):
     # Add your code here
-    pass
+    return f"{lastName.capitalize()}, {firstName.capitalize()}"
 
 
 # Task 2:
