@@ -15,7 +15,11 @@ inventory = []
 
 def addItem(itemName):
     # Add your code here
-    pass
+# Check if item already exists
+    if itemName in inventory:
+        print(f"{itemName} is already in inventory.")
+    else:
+        inventory.append(itemName) 
 
 
 # Task 3:
