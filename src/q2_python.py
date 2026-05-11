@@ -28,7 +28,11 @@ def addItem(itemName):
 
 def listInventory():
     # Add your code here
-    pass
+    if not inventory:
+        print("Inventory is empty.")
+    else:
+        for item in inventory:
+            print(item)
 
 
 # Task 4:
